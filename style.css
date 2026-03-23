@@ -161,10 +161,12 @@ section {
 }
 
 .section__pic-container {
-  display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #222;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .section__text {
@@ -198,11 +200,9 @@ section {
 }
 
 .profile-pic {
-  border-radius: 50%;
-  object-fit: cover;
   width: 100%;
   height: 100%;
-  border: 3px solid #333;
+  object-fit: cover;
 }
 
 /* ICONS */
@@ -284,7 +284,7 @@ section {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .arrow {
